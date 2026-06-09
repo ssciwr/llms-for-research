@@ -2,3 +2,8 @@
 slides/*.html
 slides/slides.pdf
 slides/slides-thumb.png
+*.html
+
+# node package stuff
+node_modules
+package*
