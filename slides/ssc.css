@@ -193,3 +193,31 @@ section img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ── Layout helpers ─────────────────────────────────────────────────────── */
+
+/* Two (or more) columns: wrap children in <div class="cols"> <div>…</div> */
+section .cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Override column count with a modifier, e.g. class="cols cols-3" */
+section .cols.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+
+/* Vertically center the column content (useful for text + image pairs) */
+section .cols.center-v { align-items: center; }
+
+/* Callout / highlight boxes ─────────────────────────────────────────────── */
+section .box {
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin: 8px 0;
+  border-left: 5px solid var(--ssc-blue);
+  background: #e8f4f8;
+}
+section .box.tip     { background: #eaf7ea; border-color: #40b945; }
+section .box.warning { background: #fff8e1; border-color: #f0b429; }
+section .box.danger  { background: #fdecea; border-color: #d32f2f; }
