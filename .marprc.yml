@@ -1,3 +1,4 @@
 themeSet:
   - slides/ssc.css
 allowLocalFiles: true
+html: true
