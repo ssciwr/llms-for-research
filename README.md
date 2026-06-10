@@ -8,9 +8,9 @@
 
 ## Slides
 
-[![Course slides](https://ssciwr.github.io/course-slides-template/slides-thumb.png)](https://ssciwr.github.io/course-slides-template)
+[![Course slides](https://ssciwr.github.io/LLMs_in_research_workshop_constribution/slides-thumb.png)](https://ssciwr.github.io/LLMs_in_research_workshop_constribution)
 
-[Download as PDF](https://ssciwr.github.io/course-slides-template/slides.pdf)
+[Download as PDF](https://ssciwr.github.io/LLMs_in_research_workshop_constribution/slides.pdf)
 
 ## Marp
 
