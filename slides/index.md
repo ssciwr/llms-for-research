@@ -109,6 +109,8 @@ Not just what you write into the chat window.
     - fresh context window for new task
     - prompt engineering
     - when to clear context
+    - keep context free of contradictions: skills, prompt templates, agent roles...
+- Badly engineered context can degrade performance
 ---
 
 ## Agent Harness and harness engineering
@@ -120,19 +122,16 @@ Not just what you write into the chat window.
 
 </div>
 
-- Memory: Skills, subagents, Tools
-- Workflow model and task progression
-    - context engineering
-    - human approval gates
-    - feedback loops for self-correction
-- sandboxing
-- security boundaries and constraints
+- memory: Skills, subagents, Tools
+- workflow model and task progression
+- security boundaries and constraints, sandboxing
 - treat failure as a bug in the system, not as a bad prompt to retry
 
 <div class="box">
 
-The harness is the dominant influence on quality, not the LLM!
-TODO: references to corroborate this
+- The harness is increasingly a determining factor for performance https://www.preprints.org/manuscript/202604.0428
+- Performance should be seen as harness plus model, not one alone https://arxiv.org/html/2605.27922v1#S6
+- Skills are not a universal tool to improve performance https://arxiv.org/pdf/2603.15401
 
 </div>
 
@@ -232,14 +231,11 @@ TODO: references to corroborate this
 - structured approval criteria
     - make the agent cross-check it's work against a checklist
     - use new context or different agent for review of results
-    - use explore-plan-code-review loop with human approval gates inbetween
 - minimal privileges
-    - 'Why did you delete my repository?'
-- never use unreviewed skills, MCP servers or other memory elements from the net
+    - 'Why did you delete my repository?' https://news.ycombinator.com/item?id=46103532
+- never use unreviewed skills, MCP servers or other memory elements from the net https://owasp.org/www-project-agentic-skills-top-10/ast01
 - check for plagiarism: LLMs can and do reproduce text from their training data verbatim
 - compliance with licenses: You can end up using unlicensed code without being aware
-    - settings
-    - try to search for elements on the web
-    - fundamentally unsolved
-- copyright question: Is it still your work? https://www.copyright.gov/ai/
+    - settings to review and exclude known licensed code (github copilot)
+- copyright question: Is it still your work? https://www.copyright.gov/ai/ https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585
 ---
