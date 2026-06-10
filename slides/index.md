@@ -171,7 +171,7 @@ TODO: references to corroborate this
 - Makes development a lot faster
 - Great for debugging and tracing errors
 - Great for processing a lot of 'stuff' quickly
-    - finding and review literature
+    - find and review literature
     - summarize results from 200 ML experiments
     - find libraries, read documentation, generate 'cookbooks'
 - Good for larger projects or more diverse work...
@@ -191,10 +191,10 @@ TODO: references to corroborate this
     - tests and constraints...
 - Techniques that once were not practical now become feasible and beneficial
     - Code can get better through use of coding agents
-- Use of coding agents might make larger projects more feasible
+- Use of coding agents could make larger projects more feasible
     - Transfer old code to new languages
 - 'Last mile problem'
-    - Coding agents often 'almost get there', but not quite
+    - AI agents often 'almost get there', but not quite.
 
 ---
 ## Spec-driven development
