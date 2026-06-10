@@ -4,6 +4,6 @@ Slides from a roughly 20min talk on agentic AI and LLM usage in research, with a
 
 ## Slides
 
-[![Course slides](https://ssciwr.github.io/LLMs_in_research_workshop_constribution/slides-thumb.png)](https://ssciwr.github.io/LLMs_in_research_workshop_constribution)
+[![Course slides](https://ssciwr.github.io/llms-for-research/slides-thumb.png)](https://ssciwr.github.io/llms-for-research)
 
-[Download as PDF](https://ssciwr.github.io/LLMs_in_research_workshop_constribution/slides.pdf)
+[Download as PDF](https://ssciwr.github.io/llms-for-research/slides.pdf)
