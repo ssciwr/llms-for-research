@@ -238,4 +238,3 @@ Not just what you write into the chat window.
 - compliance with licenses: You can end up using unlicensed code without being aware
     - settings to review and exclude known licensed code (github copilot)
 - copyright question: Is it still your work? https://www.copyright.gov/ai/ https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)782585
----
