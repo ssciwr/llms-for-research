@@ -8,12 +8,21 @@ description: SSC workshop short constribution
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-<!-- _footer: "Last updated: 2026-05-26" -->
+<!-- _footer: "Last updated: 2026-06-10" -->
 
 
 # LLMs and Agentic AI in research
 
 ## Liam Keegan, Harald Mack (SSC)
+
+---
+
+## Talk outline
+
+- ~5m Introduction
+- ~10m LLMs and Agentic AI
+- ~5m Practical tips and tricks
+- ~25m Discussion
 
 ---
 
@@ -30,6 +39,12 @@ description: SSC workshop short constribution
 We are a team of *Research Software Engineers*
 
 ![height:500px](ssc-team.jpg)
+
+---
+
+<!-- _class: subtitle -->
+
+# LLMs and Agentic AI
 
 ---
 
