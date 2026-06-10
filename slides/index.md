@@ -8,7 +8,7 @@ description: SSC workshop short constribution
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-<!-- _footer: "Last updated: 2026-06-10" -->
+<!-- _footer: "Last updated: 2026-06-11" -->
 
 
 # LLMs and Agentic AI in research
@@ -291,8 +291,10 @@ Not just what you write into the chat window.
 
 If you've never tried agentic programming, it's quick and easy (but not free) to get started:
 
-- sign up for a monthly claude / chatgpt plan (~20eur / month)
-- install claude code / codex (one line in the command line)
+- sign up for a monthly claude or chatgpt plan (~20eur / month)
+- install claude code or codex (one line in the command line)
+  - https://code.claude.com/docs/en/quickstart#step-1-install-claude-code
+  - https://developers.openai.com/codex/cli#cli-setup
 - run `claude` or `codex` in your project folder
 - start asking it to do stuff!
 
