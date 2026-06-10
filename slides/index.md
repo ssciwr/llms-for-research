@@ -38,6 +38,7 @@ description: SSC workshop short constribution
 
 ### **AI Agent**
 - LLM + tools + specifications + memory
+- LLM is the CPU, not the system
 - MCP (tools): run python, search the web
 - Skills (manuals and workflow)
 - Role definitions ('agents' = identity)
@@ -52,7 +53,7 @@ description: SSC workshop short constribution
 
 ---
 
-## Context
+## Agent memory and context
 
 <div class="cols">
 
@@ -78,9 +79,7 @@ Stored data with which context is augmented
 ### **Context**
 
 <div class="box">
-
 Not just what you write into the chat window.
-
 </div>
 
 - interaction history, including current prompt
@@ -123,13 +122,12 @@ Not just what you write into the chat window.
 
 - Memory: Skills, subagents, Tools
 - Workflow model and task progression
-    - task progression and structuring
     - context engineering
     - human approval gates
-    - feedback loops
+    - feedback loops for self-correction
 - sandboxing
-- security boundaries
-- treat failure as a system problem, not a prompt to retry
+- security boundaries and constraints
+- treat failure as a bug in the system, not as a bad prompt to retry
 
 <div class="box">
 
@@ -156,16 +154,18 @@ TODO: references to corroborate this
 ## Coding with AI Agents
 
 - Cooperation between human and machine
+    - machine: developer human: architect, product owner, manager
+- You are absorbing the failure, so you are responsible
 - Scientific work is (typically) not in the training data
+    - but individual steps in the workflow are
 - Reversal of roles:
     - Machine knows more than we do about coding
     - Human is architect, product owner, carrier of responsibility, manager
-- We need new skills or use existing ones in different ways:
+- In using coding agents, we need to use our skills in different ways
     - how to express intent effectively
     - how to keep the agent on track
     - how to keep ourselves on track
-    - software architecture, verification, validation
-
+    - software architecture, verification, validation, problem structuring
 ---
 ## Our Experiences with (coding) agents
 - Makes development a lot faster
@@ -179,6 +179,7 @@ TODO: references to corroborate this
 - Local focus: LLMs struggle with the big picture
     - Architecture, global requirements, ingrained assumptions...
     - Agents compensate for ignorance with complexity
+- Coding agents often are skill amplifiers
 
 ---
 ## Our Experiences with (coding) agents
@@ -192,16 +193,24 @@ TODO: references to corroborate this
     - Code can get better through use of coding agents
 - Use of coding agents might make larger projects more feasible
     - Transfer old code to new languages
+- 'Last mile problem'
+    - Coding agents often 'almost get there', but not quite
 
 ---
-### Spec-driven development
+## Spec-driven development
+- Effective way to develop software with coding agents
+- Agentic coding is fast, so it's easy to loose control: 'Comprehension dept'
+    - side effects?
+    - dependencies maintained, trustworthy?
+    - is the result compliant with requirements and constraints
 - Specifications of your intent are the source of truth
+- Specifications need to express intent fully: Architecture, performance, behavior, security aspects...
 - Specifications are living elements of your project, just as much as code and tests are
 - Specifications evolve together with you code and tests
 - Specifications define desired behavior, behavior defines tests and acceptance criteria, tests define code
 
 ---
-### Useful Software engineering techniques
+## Useful Software engineering techniques
 - Behavior- driven development
     - facilitate structured communication between different team members (here: you + agent)
     - central concept: User story in structured natural language
@@ -214,21 +223,23 @@ TODO: references to corroborate this
     - helps with finding correctness or performance regressions, security compliance
 
 ---
-## General best practices for agentic AI
+## General best practices and security aspects
 
-
----
-### Security aspects
 - zero trust principle
-- progressive disclosure
-- minimal priviledges
-
+    - don't disclose secrets. .env file in project?
+    - don't pass sensitive data (dsgvo)
+    - use human approval gates for critical decisions
+- structured approval criteria
+    - make the agent cross-check it's work against a checklist
+    - use new context or different agent for review of results
+    - use explore-plan-code-review loop with human approval gates inbetween
+- minimal privileges
+    - 'Why did you delete my repository?'
+- never use unreviewed skills, MCP servers or other memory elements from the net
+- check for plagiarism: LLMs can and do reproduce text from their training data verbatim
+- compliance with licenses: You can end up using unlicensed code without being aware
+    - settings
+    - try to search for elements on the web
+    - fundamentally unsolved
+- copyright question: Is it still your work? https://www.copyright.gov/ai/
 ---
-
-## Summary
-TODO
-
-
----
-## References
-TODO
