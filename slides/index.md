@@ -104,6 +104,26 @@ How to manipulate model context to make it effective and efficient
     - how to keep the agent on track
     - how to keep ourselves on track
     - software architecture, verification, validation
+
+---
+## Our Experiences with (coding) agents
+- Great for debugging and tracing errors
+- Great for processing a lot of 'stuff' quickly
+    - finding and review literature
+    - summarize results from 200 ML experiments
+    - find libraries, read documentation, generate 'cookbooks'
+- Good for larger projects or more diverse work...
+    - ... if context and harness are engineered well for it
+- Local focus: LLMs struggle with the big picture
+    - Architecture, global requirements, ingrained assumptions...
+    - Agents compensate for ignorance with complexity
+- Deep understanding becomes more important more quickly:
+    - Planning, requirements engineering, tests, boundary cases, constraints...
+- Techniques that once were not practical now become feasible and beneficial
+    - Code can get better through use of coding agents
+- Role change: Hands-on developer to Product owner/manager/architect/senior dev
+    - Reviewing and permanent vigilence can become exhausting
+
 ---
 ### Spec-driven development for 'intent engineering'
 -
@@ -132,24 +152,6 @@ How to manipulate model context to make it effective and efficient
 - Pi (https://pi.dev/)
     - feynman
 
----
-## Our Experiences with (coding) agents
-- Great for debugging and tracing errors
-- Great for processing a lot of 'stuff' quickly
-    - finding and review literature
-    - summarize results from 200 ML experiments
-    - find libraries, read documentation, generate 'cookbooks'
-- Good for larger projects or more diverse work...
-    - ... if context and harness are engineered well for it
-- Local focus: LLMs struggle with the big picture
-    - Architecture, global requirements, ingrained assumptions...
-    - Agents compensate for ignorance with complexity
-- Deep understanding becomes more important more quickly:
-    - Planning, requirements engineering, tests, boundary cases, constraints...
-- Techniques that once were not practical now become feasible and beneficial
-    - Code can get better through use of coding agents
-- Role change: Hands-on developer to Product owner/manager/architect/senior dev
-    - Reviewing and permanent vigilence can become exhausting
 
 ---
 
