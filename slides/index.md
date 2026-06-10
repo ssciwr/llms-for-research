@@ -287,6 +287,72 @@ Not just what you write into the chat window.
 
 ---
 
+# Getting started
+
+If you've never tried agentic programming, it's quick and easy (but not free) to get started:
+
+- sign up for a monthly claude / chatgpt plan (~20eur / month)
+- install claude code / codex (one line in the command line)
+- run `claude` or `codex` in your project folder
+- start asking it to do stuff!
+
+---
+
+# Enabling your agent
+
+Agents do best when they are given
+
+1. a clearly defined goal
+2. enough context to understand the problem
+3. a way to determine if they're reached their goal
+4. a fast iteration loop where they can make an incremental change then test it
+
+Notice that this also applies to phd students, and people in general!
+
+---
+
+# 1. Have a clear goal
+
+- Don't let it start coding until the plan is clear!
+- Ask it to make a plan for implementation and tests
+- Ask it to ask you about anything that is unclear
+- Sometimes it can be worth asking for a few alternative plans to compare
+- Iterate on the plan, the expected outcomes, and the tests
+- Once you have a plan (that you also understand!) then ask it to implement
+- (see also spec-driven development)
+
+---
+
+# 2. Provide enough context
+
+- Claude Code / Codex etc already do a pretty good job of this
+- Point them to relevant code, documentation, papers, artefacts
+- Consider using relevant skills or MCP servers if applicable
+- Tell it things that are relevant / important and not in the code
+- But avoid very large context: compact or start a new session
+
+---
+
+# 3. Define success
+
+- It needs to know if its making progress, if the outcome is correct, if its done
+- "All the tests pass" is a common definition of success in software
+- If the test suite is well designed and fairly complete this works well
+- It can identify and resolve all kinds of bugs without any further input from you
+- If you understand the tests then this can even work well without you understanding the code!
+
+---
+
+# 4. Enable fast iteration
+
+- Put some instructions in AGENTS.md / CLAUDE.md
+- How to install any dependencies, set up the environment, etc
+- How to compile and run the code
+- How to compile and run the tests
+- Anything else needed for it to iterate effectively
+
+---
+
 # How the SSC can help you
 
 - Get in touch for a free consultation
