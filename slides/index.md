@@ -17,7 +17,7 @@ description: SSC workshop short constribution
 
 ---
 
-## Talk outline
+# Talk outline
 
 - ~5m Introduction
 - ~10m LLMs and Agentic AI
@@ -26,19 +26,71 @@ description: SSC workshop short constribution
 
 ---
 
-## Scientific Software Center
+# Scientific Software Center
 
-> The Scientific Software Center strives to improve research software development practices at Heidelberg University and beyond, to promote reproducible science and research software sustainability.
+*"The Scientific Software Center strives to improve research software development practices at Heidelberg University and beyond, to promote reproducible science and research software sustainability."*
 
-![height:300px](ssc-pillars.png)
+![height:240px](ssc-pillars.png)
 
 ---
 
-## Scientific Software Center
+# Scientific Software Center
 
 We are a team of *Research Software Engineers*
 
 ![height:500px](ssc-team.jpg)
+
+---
+
+# 2023: LLMs can write code
+
+It turns out LLMs, like chatGPT, can generate (sometimes working!) code from plain english prompts.
+
+> **Andrej Karpathy** @karpathy
+>
+> The hottest new programming language is English
+>
+> Jan 2023
+> https://x.com/karpathy/status/1617979122625712128
+
+---
+
+# 2025: Vibe coding
+
+You can (more or less) code fun projects, without understanding the code, just by talking to a model.
+
+> **Andrej Karpathy** @karpathy
+>
+> There's a new kind of coding I call "vibe coding" [...] it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+>
+> Feb 2025
+> https://x.com/karpathy/status/1886192184808149383
+
+---
+
+# 2026: Agentic engineering
+
+LLMs are now good enough at coding to be used by professional developers in serious projects.
+
+> **Andrej Karpathy** @karpathy
+>
+> programming via LLM agents is increasingly becoming a default workflow for professionals [...] to differentiate it from vibe coding, personally my current favorite "agentic engineering" [...]
+>
+> Feb 2026
+> https://x.com/karpathy/status/2019137879310836075
+
+---
+
+# Keeping up
+
+If you feel like it's hard to keep up with this dramatic rate of change, you're not alone!
+
+> **Andrej Karpathy** @karpathy
+>
+> I've never felt this much behind as a programmer [...] some powerful alien tool was handed around except it comes with no manual and everyone has to figure out how to hold it and operate it [...]
+>
+> Dec 2025
+> https://x.com/karpathy/status/2004607146781278521
 
 ---
 
@@ -226,6 +278,18 @@ Not just what you write into the chat window.
     - Transfer old code to new languages
 - 'Last mile problem'
     - AI agents often 'almost get there', but not quite.
+
+---
+
+<!-- _class: subtitle -->
+
+# Tips and Tricks
+
+---
+
+<!-- _class: subtitle -->
+
+# Extra slides
 
 ---
 ## Spec-driven development
