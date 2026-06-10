@@ -2,57 +2,156 @@
 marp: true
 theme: ssc
 paginate: true
-title: Course Slides Template
-description: SSC Compact Course
+title: LLMs and Agentic AI in research
+description: SSC workshop short constribution
 ---
 
 <!-- _class: title -->
 <!-- _paginate: false -->
 <!-- _footer: "Last updated: 2026-05-26" -->
 
-# Course Slides Template
 
-## A Person, SSC
+# LLMs and Agentic AI in research
+
+## Liam Keegan, Harald Mack (SSC)
+
+---
+## LLMs and Agentic AI?
+
+<div class="box warning">
+⚠️LLMs and AI Agents are not the same!
+</div>
+
+<div class="cols">
+
+<div>
+
+### **LLM - 'Large language model'**
+- process language piece by piece
+- execution engine for agentic applications, similar to Python Interpreter vs App
+- **stateless**: act only on current content of context window
+
+</div>
+
+<div>
+
+### **AI Agent**
+- LLM + tools + specifications
+- Model
+- MCP
+- Skills
+
+</div>
+</div>
+
+<div class="box warning">
+⚠️Agents can modify their own context: Choose skill, tool etc. New challenges for security.
+</div>
 
 ---
 
-# Slide title
+## Context
 
-Slide content is just normal markdown. Lists using `*` are displayed one by one, e.g:
+<div class="cols">
 
-* First point
-* Second point
+<div>
+
+### **Prompt**
+
+</div>
+<div>
+
+### **Memory**
+
+</div>
+</div>
+
+---
+## Agentic memory and Agent Harness
+
+---
+## Context engineering
+How to manipulate model context to make it effective and efficient
+
+
+---
+## Applications
+
+- literature review
+
+- summarization of results
+
+- simple experiment loops: evaluate - hypothesis - modify - evaluate - ...
+
+- writing new skills for an agent
+
+- coding
+
+---
+## Caveats of agentic applications
+
+
+---
+## Coding with AI Agents
+
+- Cooperation between human and machine
+- Science is (typically) not in the training data by definition
+- Reversal of roles:
+    - Machine knows more than we do about coding
+    - Human is architect, product owner, carrier of responsibility, manager
+- We need new skills or use existing ones in different ways:
+    - how to express intent effectively
+    - how to keep the agent on track
+    - how to keep ourselves on track
+    - software architecture, verification, validation
+---
+### Spec-driven development for 'intent engineering'
+-
+
+
+---
+### Other useful agentic coding techniques
+- Mutation testing
+- Test-driven development
+- Behavior- driven development
+- Characterization tests (when migrating code bases)
+-
+
+---
+### Security aspects
+- zero trust principle
+- progressive disclosure
+- minimal priviledges
+
+---
+## Useful Agents (Harnesses)
+- Claude
+- Codex
+- Cursor
+- OpenClaw
+- Pi (https://pi.dev/)
+    - feynman
+
+---
+## Our Experiences with (coding) agents
+- Great for debugging and tracing errors
+- Great for processing a lot of 'stuff' quickly
+    - finding and review literature
+    - summarize results from 200 ML experiments
+    - find libraries, read documentation, generate 'cookbooks'
+- Good for larger projects or more diverse work...
+    - ... if context and harness are engineered well for it
+- Local focus: LLMs struggle with the big picture
+    - Architecture, global requirements, ingrained assumptions...
+    - Agents compensate for ignorance with complexity
+- Deep understanding becomes more important more quickly:
+    - Planning, requirements engineering, tests, boundary cases, constraints...
+- Techniques that once were not practical now become feasible and beneficial
+    - Code can get better through use of coding agents
+- Role change: Hands-on developer to Product owner/manager/architect/senior dev
+    - Reviewing and permanent vigilence can become exhausting
 
 ---
 
-# Images
-
-The alt text for images can be used to set the size, etc. See [marpit.marp.app/image-syntax](https://marpit.marp.app/image-syntax)
-
-The url can be a local file if that file is added to this folder, or a remote url.
-
-For example `![width:600px drop-shadow](https://backend.ssc.uni-heidelberg.de/sites/default/files/site_logo/WEB%20Kopfgrafik%20Scientific-Software-Center%20KURZ_neu.svg)`:
-
-![width:600px drop-shadow](https://backend.ssc.uni-heidelberg.de/sites/default/files/site_logo/WEB%20Kopfgrafik%20Scientific-Software-Center%20KURZ_neu.svg)
-
----
-
-![bg left:33%](https://picsum.photos/720?image=27)
-
-# Background images
-
-Background images can also be added.
-
-For example this slide has `![bg left:33%](https://picsum.photos/720?image=27)`, where the background image takes up 33% of the slide on the left, and the rest of the space is used for the slide contents.
-
-See [marpit.marp.app/image-syntax](https://marpit.marp.app/image-syntax) for more details.
-
----
-
-# Navigation
-
-- `right` or `down` or `spacebar` to go to next slide
-- `left` or or `up` or shift+spacebar` to go to previous slide
-- `f` to toggle full screen
-- `o` or `esc` to toggle overview
-- `p` open presenter view
+## Summary
+TODO
