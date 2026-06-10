@@ -16,6 +16,23 @@ description: SSC workshop short constribution
 ## Liam Keegan, Harald Mack (SSC)
 
 ---
+
+## Scientific Software Center
+
+> The Scientific Software Center strives to improve research software development practices at Heidelberg University and beyond, to promote reproducible science and research software sustainability.
+
+![height:300px](ssc-pillars.png)
+
+---
+
+## Scientific Software Center
+
+We are a team of *Research Software Engineers*
+
+![height:500px](ssc-team.jpg)
+
+---
+
 ## LLMs and Agentic AI?
 
 <div class="box warning">
