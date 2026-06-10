@@ -19,10 +19,10 @@ description: SSC workshop short constribution
 
 # Talk outline
 
-- ~5m Introduction
-- ~10m LLMs and Agentic AI
-- ~5m Practical tips and tricks
-- ~25m Discussion
+- 5min **Introduction**
+- 10m **LLMs and Agentic AI**
+- 5m **Practical tips and tricks**
+- 25m **Discussion**
 
 ---
 
@@ -61,7 +61,7 @@ You can (more or less) code fun projects, without understanding the code, just b
 
 > **Andrej Karpathy** @karpathy
 >
-> There's a new kind of coding I call "vibe coding" [...] it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works.
+> There's a new kind of coding I call "vibe coding" [...] it's not really coding - I just see stuff, say stuff, run stuff [...] and it mostly works.
 >
 > Feb 2025
 > https://x.com/karpathy/status/1886192184808149383
@@ -284,6 +284,21 @@ Not just what you write into the chat window.
 <!-- _class: subtitle -->
 
 # Tips and Tricks
+
+---
+
+# How the SSC can help you
+
+- Get in touch for a free consultation
+  - ssc@uni-heidelberg.de
+- Attend one of our courses on software development best practices
+  - [ssc.uni-heidelberg.de/en/learning](https://www.ssc.uni-heidelberg.de/en/learning)
+- Apply for our annual Open Call (next May)
+  - free software development for your project
+  - [ssc.uni-heidelberg.de/en/development/the-sscs-open-call](https://www.ssc.uni-heidelberg.de/en/development/the-sscs-open-call)
+- Apply for our SSC Fellows program (next May)
+  - one-to-one mentoring for phd students / postdocs
+  - [ssc.uni-heidelberg.de/en/learning/ssc-program-ssc-fellows](https://www.ssc.uni-heidelberg.de/en/learning/ssc-program-ssc-fellows)
 
 ---
 
