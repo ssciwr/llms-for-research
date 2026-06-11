@@ -120,7 +120,7 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 - LLM is the CPU, not the system
 - MCP (tools): run python, search the web
 - Skills (manuals and workflow)
-- Role definitions ('agents' = identity)
+- subagents and role definitions ('agents' = identity)
 - Various kinds of memory
 
 </div>
@@ -158,7 +158,7 @@ Stored data with which context is augmented
 ## **Context**
 
 <div class="box">
-Not just what you write into the chat window.
+Not just what you write into the chat window
 </div>
 
 - interaction history, including current prompt
@@ -178,7 +178,7 @@ Not just what you write into the chat window.
 
 # Context engineering
 - How to manipulate model context to make it effective and efficient
-- What does the model see at any given point
+- What does the model see at any given point?
 - Automatically done by LLM/Agent vendor:
     - context summarization (automatically done): Can oversimplify
     - progressive disclosure of files, skills, tools...
@@ -186,13 +186,15 @@ Not just what you write into the chat window.
     - system prompt
 - Manually done by user:
     - fresh context window for new task
+    - subagent architecture
     - prompt engineering
-    - when to clear context
-    - keep context free of contradictions: skills, prompt templates, agent roles...
-- Badly engineered context can degrade performance
+    - free of contradictions: skills, prompt templates, agent roles...
+- Large context is not always better https://www.trychroma.com/research/context-rot
+- Comes in four (five) parts: write-select-compress-isolate-(validate) (langchain definition)
+- Context management protocols can have strong influence on performance https://arxiv.org/pdf/2604.01664
 ---
 
-# Agent Harness and harness engineering
+# Agent harnesses and harness engineering
 
 <div class="box">
 
@@ -201,16 +203,16 @@ Not just what you write into the chat window.
 
 </div>
 
-- memory: Skills, subagents, Tools
+- memory: Skills, subagents, tools
 - workflow model and task progression
-- security boundaries and constraints, sandboxing
+- security boundaries, check against defined constraints, sandboxing
+- human intervention or review gates
 - treat failure as a bug in the system, not as a bad prompt to retry
 
 <div class="box">
 
 - The harness is increasingly a determining factor for performance https://www.preprints.org/manuscript/202604.0428
-- Performance should be seen as harness plus model, not one alone https://arxiv.org/html/2605.27922v1#S6
-- Skills are not a universal tool to improve performance https://arxiv.org/pdf/2603.15401
+- Performance should be seen as harness plus model plus context policy, not one alone https://arxiv.org/html/2605.27922v1#S6
 
 </div>
 
@@ -232,21 +234,20 @@ Not just what you write into the chat window.
 # Coding with AI Agents
 
 - Cooperation between human and machine
-    - machine: developer human: architect, product owner, manager
-- You are absorbing the failure, so you are responsible
-- Scientific work is (typically) not in the training data
-    - but individual steps in the workflow are
+    - machine: developer human: architect, product owner, team leader
 - Reversal of roles:
     - Machine knows more than we do about coding
-    - Human is architect, product owner, carrier of responsibility, manager
+    - Human is architect, product owner, carrier of responsibility, team manager ...
 - In using coding agents, we need to use our skills in different ways
     - how to express intent effectively
     - how to keep the agent on track
     - how to keep ourselves on track
     - software architecture, verification, validation, problem structuring
+- You are absorbing the failure, so you are responsible
+
 ---
 # Our Experiences with (coding) agents
-- Makes development a lot faster
+- Can make development a lot faster
 - Great for debugging and tracing errors
 - Great for processing a lot of 'stuff' quickly
     - find and review literature
@@ -254,7 +255,7 @@ Not just what you write into the chat window.
     - find libraries, read documentation, generate 'cookbooks'
 - Good for larger projects or more diverse work...
     - ... if context and harness are engineered well
-- Local focus: LLMs struggle with the big picture
+- Local focus: Agents struggle with the big picture
     - Architecture, global requirements, ingrained assumptions...
     - Agents compensate for ignorance with complexity
 - Coding agents often are skill amplifiers
@@ -266,7 +267,7 @@ Not just what you write into the chat window.
     - Changes the daily workflow
 - Deep understanding becomes more important more quickly:
     - Planning, requirements engineering
-    - tests and constraints...
+    - write tests and define constraints earlier
 - Techniques that once were not practical now become feasible and beneficial
     - Code can get better through use of coding agents
 - Use of coding agents could make larger projects more feasible
