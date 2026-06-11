@@ -92,15 +92,10 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 > Dec 2025
 > https://x.com/karpathy/status/2004607146781278521
 
----
-
-<!-- _class: subtitle -->
-
-# LLMs and Agentic AI
 
 ---
 
-## LLMs and Agentic AI?
+# LLMs and Agentic AI?
 
 <div class="box warning">
 ⚠️LLMs and AI Agents are not the same!
@@ -110,7 +105,7 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 
 <div>
 
-### **LLM - 'Large language model'**
+## **LLM - 'Large language model'**
 - process language piece by piece
 - execution engine for agentic applications, similar to Python Interpreter vs App
 - **stateless**: act only on current content of context window
@@ -120,7 +115,7 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 
 <div>
 
-### **AI Agent**
+## **AI Agent**
 - LLM + tools + specifications + memory
 - LLM is the CPU, not the system
 - MCP (tools): run python, search the web
@@ -137,13 +132,13 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 
 ---
 
-## Agent memory and context
+# Agent memory and context
 
 <div class="cols">
 
 <div>
 
-### **Memory**
+## **Memory**
 
 <div class="box">
 Stored data with which context is augmented
@@ -160,7 +155,7 @@ Stored data with which context is augmented
 
 <div>
 
-### **Context**
+## **Context**
 
 <div class="box">
 Not just what you write into the chat window.
@@ -181,7 +176,7 @@ Not just what you write into the chat window.
 
 ---
 
-## Context engineering
+# Context engineering
 - How to manipulate model context to make it effective and efficient
 - What does the model see at any given point
 - Automatically done by LLM/Agent vendor:
@@ -197,7 +192,7 @@ Not just what you write into the chat window.
 - Badly engineered context can degrade performance
 ---
 
-## Agent Harness and harness engineering
+# Agent Harness and harness engineering
 
 <div class="box">
 
@@ -234,7 +229,7 @@ Not just what you write into the chat window.
 - coding -->
 
 ---
-## Coding with AI Agents
+# Coding with AI Agents
 
 - Cooperation between human and machine
     - machine: developer human: architect, product owner, manager
@@ -250,7 +245,7 @@ Not just what you write into the chat window.
     - how to keep ourselves on track
     - software architecture, verification, validation, problem structuring
 ---
-## Our Experiences with (coding) agents
+# Our Experiences with (coding) agents
 - Makes development a lot faster
 - Great for debugging and tracing errors
 - Great for processing a lot of 'stuff' quickly
@@ -265,7 +260,7 @@ Not just what you write into the chat window.
 - Coding agents often are skill amplifiers
 
 ---
-## Our Experiences with (coding) agents
+# Our Experiences with (coding) agents
 - Role change: Hands-on developer to Product owner/manager/architect/senior dev
     - Reviewing and permanent vigilence can become exhausting
     - Changes the daily workflow
