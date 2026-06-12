@@ -116,8 +116,8 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 <div>
 
 ## **AI Agent**
-- LLM + tools + specifications + memory
-- LLM is the CPU, not the system
+- LLM + tools + environment + memory
+- CPU (LLM) + 'operating system' (harness, memory, tools)
 - MCP (tools): run python, search the web
 - Skills (manuals and workflow)
 - subagents and role definitions ('agents' = identity)
@@ -127,7 +127,7 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 </div>
 
 <div class="box warning">
-⚠️Agents can modify their own context: Choose skill, tool etc. New challenges for security.
+⚠️Agents are iterative and modify their own context each step: Choose skill, tool etc.
 </div>
 
 ---
@@ -144,7 +144,7 @@ If you feel like it's hard to keep up with this dramatic rate of change, you're 
 Stored data with which context is augmented
 </div>
 
-- **procedural memory**: workflows, skills, rules, tools, system prompt, 'learned behavior'
+- **procedural memory**: workflows, skills, rules, tools, 'learned behavior'
 - **episodic memory**: 'experiences', specific events, interactions, outcomes
 - **semantic memory**: facts, entity relationships, scope definitions, weights, RAG
 - **working memory**: The context window
@@ -165,7 +165,6 @@ Not just what you write into the chat window
 - system prompt: General behavior, role definition, rules to always follow
     - Agent definitions can replace this with your own
 - tool definitions, output and execution results
-- chain of thought (in reasoning mode)
 - Selected elements of memory
     - skill or subagent definitions
     - parts of episodic memory
@@ -184,13 +183,13 @@ Not just what you write into the chat window
     - progressive disclosure of files, skills, tools...
     - when to write memory
     - system prompt
-- Manually done by user:
+- Manually done by user
     - fresh context window for new task
     - subagent architecture
     - prompt engineering
-    - free of contradictions: skills, prompt templates, agent roles...
+    - checking for contradictions, off-topic content, secrets...
+- Comes in four (five) parts: write-select-compress-isolate-(validate) ([langchain definition](https://www.langchain.com/blog/context-engineering-for-agents))
 - Large context is not always better https://www.trychroma.com/research/context-rot
-- Comes in four (five) parts: write-select-compress-isolate-(validate) (langchain definition)
 - Context management protocols can have strong influence on performance https://arxiv.org/pdf/2604.01664
 ---
 
@@ -198,14 +197,14 @@ Not just what you write into the chat window
 
 <div class="box">
 
-- **Harness**: Execution environment (operating system) of the Agent
+- **Harness**: Execution environment of the LLM in an AI agent
 - **Harness engineering**: Designing the execution environment around an LLM
 
 </div>
 
-- memory: Skills, subagents, tools
-- workflow model and task progression
-- security boundaries, check against defined constraints, sandboxing
+- memory: skills, subagents, tools, ...
+- workflow and task progression models
+- security boundaries, check against defined constraints, sandboxing, feedback loops
 - human intervention or review gates
 - treat failure as a bug in the system, not as a bad prompt to retry
 
@@ -234,10 +233,10 @@ Not just what you write into the chat window
 # Coding with AI Agents
 
 - Cooperation between human and machine
-    - machine: developer human: architect, product owner, team leader
+    - machine: developer, human: architect, product owner, team leader
 - Reversal of roles:
     - Machine knows more than we do about coding
-    - Human is architect, product owner, carrier of responsibility, team manager ...
+    - Human manages and guides capability
 - In using coding agents, we need to use our skills in different ways
     - how to express intent effectively
     - how to keep the agent on track
@@ -258,7 +257,7 @@ Not just what you write into the chat window
 - Local focus: Agents struggle with the big picture
     - Architecture, global requirements, ingrained assumptions...
     - Agents compensate for ignorance with complexity
-- Coding agents often are skill amplifiers
+- Coding lower the entry barrier, but at the same time amplify skill
 
 ---
 # Our Experiences with (coding) agents
