@@ -353,9 +353,9 @@ Notice that this also applies to phd students, and people in general!
 
 # Enabling your agent recap
 
-1. Clear goal
-2. Relevant context
-3. Success criteria
+1. Have a clear goal
+2. Provide relevant context
+3. Provide success criteria (tests)
 4. Fast iteration loop
 
 ---
