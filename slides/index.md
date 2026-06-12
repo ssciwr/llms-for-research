@@ -302,7 +302,7 @@ Agents do best when they are given
 
 1. a clearly defined goal
 2. enough context to understand the problem
-3. a way to determine if they're reached their goal
+3. a way to determine if they've reached their goal
 4. a fast iteration loop where they can make an incremental change then test it
 
 Notice that this also applies to phd students, and people in general!
@@ -348,6 +348,15 @@ Notice that this also applies to phd students, and people in general!
 - How to compile and run the code
 - How to compile and run the tests
 - Anything else needed for it to iterate effectively
+
+---
+
+# Enabling your agent recap
+
+1. Clear goal
+2. Relevant context
+3. Success criteria
+4. Fast iteration loop
 
 ---
 
