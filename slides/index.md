@@ -3,12 +3,12 @@ marp: true
 theme: ssc
 paginate: true
 title: LLMs and Agentic AI in research
-description: SSC workshop short constribution
+description: SSC workshop short contribution
 ---
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-<!-- _footer: "Last updated: 2026-06-11" -->
+<!-- _footer: "Last updated: 2026-06-12" -->
 
 
 # LLMs and Agentic AI in research
@@ -198,7 +198,7 @@ Not just what you write into the chat window
 
 <div class="box">
 
-- **Harness**: Execution environment (operationg system) of the Agent
+- **Harness**: Execution environment (operating system) of the Agent
 - **Harness engineering**: Designing the execution environment around an LLM
 
 </div>
@@ -263,7 +263,7 @@ Not just what you write into the chat window
 ---
 # Our Experiences with (coding) agents
 - Role change: Hands-on developer to Product owner/manager/architect/senior dev
-    - Reviewing and permanent vigilence can become exhausting
+    - Reviewing and permanent vigilance can become exhausting
     - Changes the daily workflow
 - Deep understanding becomes more important more quickly:
     - Planning, requirements engineering
@@ -333,7 +333,7 @@ Notice that this also applies to phd students, and people in general!
 
 # 3. Define success
 
-- It needs to know if its making progress, if the outcome is correct, if its done
+- It needs to know if it's making progress, if the outcome is correct, if it's done
 - "All the tests pass" is a common definition of success in software
 - If the test suite is well designed and fairly complete this works well
 - It can identify and resolve all kinds of bugs without any further input from you
@@ -382,7 +382,7 @@ Notice that this also applies to phd students, and people in general!
 ---
 ## Spec-driven development
 - Effective way to develop software with coding agents
-- Agentic coding is fast, so it's easy to loose control: 'Comprehension dept'
+- Agentic coding is fast, so it's easy to lose control: 'Comprehension debt'
     - side effects?
     - dependencies maintained, trustworthy?
     - is the result compliant with requirements and constraints
@@ -394,7 +394,7 @@ Notice that this also applies to phd students, and people in general!
 
 ---
 ## Useful Software engineering techniques
-- Behavior- driven development
+- Behavior-driven development
     - facilitate structured communication between different team members (here: you + agent)
     - central concept: User story in structured natural language
     - derive automated test from user story, check if implemented code allows it
@@ -413,7 +413,7 @@ Notice that this also applies to phd students, and people in general!
     - don't pass sensitive data (dsgvo)
     - use human approval gates for critical decisions
 - structured approval criteria
-    - make the agent cross-check it's work against a checklist
+    - make the agent cross-check its work against a checklist
     - use new context or different agent for review of results
 - minimal privileges
     - 'Why did you delete my repository?' https://news.ycombinator.com/item?id=46103532
