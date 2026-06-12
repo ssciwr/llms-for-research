@@ -19,10 +19,10 @@ description: SSC workshop short contribution
 
 # Talk outline
 
-- 5min **Introduction**
-- 10m **LLMs and Agentic AI**
-- 5m **Practical tips and tricks**
-- 25m **Discussion**
+- 5 min: **Introduction**
+- 10 min: **LLMs and Agentic AI**
+- 5 min: **Practical tips and tricks**
+- 25 min: **Discussion**
 
 ---
 
